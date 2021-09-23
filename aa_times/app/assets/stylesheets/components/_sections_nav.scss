@@ -1,4 +1,32 @@
 .section-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
+
+    li {
+        display: flex;
+        padding: 1px 3px;
+        font-size: 10px;
+        font-family: $sans-serif;
+        margin: 3px;
+
+    }
+
+    li:hover {
+        background-color: $light-gray;
+        
+    }
+        
+    
+
+    :last-child {
+        text-transform: uppercase;
+    }
+
+    :last-child:hover {
+        text-decoration: underline;
+        background-color: white;
+
+    }
+    
 }

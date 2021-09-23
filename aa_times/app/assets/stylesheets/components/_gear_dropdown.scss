@@ -1,1 +1,63 @@
-// Use the gear_dropdown.png screenshot as a style guide
+// // Use the gear_dropdown.png screenshot as a style guide
+
+
+
+// // #gear-dropdown {
+// // 	position: relative;
+// // }
+
+// // #gear-dropdown:hover .gear-dropdown-hidden {
+// // 	display: block;
+
+
+
+// // .dropdown-subtitle {
+// //     display: block;
+// //     position: absolute;
+// // }
+// // // }
+
+// // .gear-dropdown-hidden {
+// // 	position: relative;
+// // 	display: none;
+// //     .gear-dropdown-hidden:hover .dropdown-subtitle {
+// //         display: block;
+        
+// //     }
+
+
+
+// .gear-dropdown-hidden {
+//     display: none;
+// }
+
+// .gear-dropdown-hidden:hover {
+//     display: block;
+
+//     ul {
+//         display: block;
+//     }
+// }
+
+#gearlogo {
+    position: relative;
+}
+
+.gear-dropdown {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    li {
+        display: block;
+    }
+}
+
+#gearlogo:hover .gear-dropdown {
+    display: block;
+}
+
+.dropdown-subtitle {
+    display: none;
+}
